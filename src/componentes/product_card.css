@@ -1,0 +1,37 @@
+.container-page{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container-img{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.button-card{
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+
+    background-color: transparent;
+    border: 2px solid #10b7cd;
+    color: #10b7cd;
+    font-Weight: bold;
+}
+
+.icon-button-card{
+    margin-left: auto;
+    width: 7.5%;
+    height: auto;
+
+    position: absolute; /* Elemento posicionado absolutamente */
+    top: 50%; /* Posiciona verticalmente en el centro */
+    left: 2%; /* Posiciona horizontalmente a la izquierda */
+    transform: translateY(-50%);
+}
