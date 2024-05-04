@@ -1,7 +1,12 @@
-.container-page{
-    background-color: white;
-    border-radius: 10px;
-}
+.container-page {
+    max-width: 250px; /* Ancho máximo de la tarjeta */
+    max-height: 400px; /* Altura máxima de la tarjeta */
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 20px;
+
+  }
+  
 
 .container-img{
     background-color: white;
@@ -10,15 +15,13 @@
 }
 
 .img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
   }
 
 .button-card{
     width: 100%;
     border-radius: 10px;
     position: relative;
-
     background-color: transparent;
     border: 2px solid #10b7cd;
     color: #10b7cd;

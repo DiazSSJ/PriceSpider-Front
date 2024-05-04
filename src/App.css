@@ -1,7 +1,81 @@
 .App {
+  min-height: 100vh;
+  display: flex; /* Added flexbox display */
+  flex-direction: column; /* Changed to column for vertical arrangement */
+  align-items: center;
   background-image: url(/src/Resources/fondo.jpg);
-  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
 }
+
+.contenedor-padre {
+  width: 90%;
+  display: flex; /* Added flexbox display */
+  flex-direction: column; /* Changed to column for vertical arrangement */
+  align-items: center;
+}
+
+.search-bar {
+  width: 80vw;
+  margin-bottom: 20px; /* Added margin for spacing between search bar and cards */
+}
+
+.product-cards-container {
+  width: 80vw;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-button {
+  margin-left: -40px;
+  z-index: 1;
+  border: none;
+  background-color: transparent;
+  color: #007bff;
+}
+
+.search-button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.product-cards-container {
+  display: flex;
+  flex-wrap:  wrap;
+  justify-content: center;
+  width: 80vw;
+}
+
+/* Estilos CSS */
+.titulo-y-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 300px; /* Ajusta el tamaño del logo según sea necesario */
+  height: auto;
+}
+
+h1{
+  font-size: large;
+  font-style: italic;
+}
+
+p{
+  font-size: large;
+  font-style: italic;
+  text-align: center;
+}
+
+
+
+
+
+
